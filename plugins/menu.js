@@ -32,10 +32,10 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       .replace(/%week/g, week)
       .replace(/%date/g, date)
       .replace(/%time/g, time): `
- [BRUXINHO-MODS] 
+ [chris-chan] 
 
 
-SALVE, ${name} 👋
+EAEEE CU, ${name} milena na area 
 Exp: ${exp}
 
 📟 hora: ${time}
@@ -43,9 +43,9 @@ Exp: ${exp}
 
 ${more.repeat(1000)}
 
-Cara Tambah XP:
-+1 Exp/pesan biasa
-+10 Exp/command
+ganhar xp:
++1 Exp/mensagem normal
++10 Exp/comandos
 
 ═════✪〘 Menu 〙✪═══
 
@@ -61,7 +61,7 @@ Cara Tambah XP:
 ➥ ${_p}tutorial
 
 ═〘 Outros 〙 ═
-➥ ${_p}qr <teks>
+➥ ${_p}qr <texto>
 ➥ ${_p}stiker (rubrica)
 ➥ ${_p}stiker <url>
 ➥ ${_p}toimg (resposta)
@@ -70,7 +70,7 @@ Cara Tambah XP:
 ➥ ${_p}sswebf <url>
 ➥ ${_p}google <pesquisa>
 ➥ ${_p}googlef <pesquisa>
-➥ ${_p}readmore <teks>|<sembunyi>
+➥ ${_p}readmore <texto/oculto>
 ➥ ${_p}quran
 ➥ ${_p}modApk
 
@@ -79,36 +79,36 @@ Cara Tambah XP:
 ➥ ${_p} promote [@tagmember]
 ➥ ${_p} demote [@tagadmin]
 ➥ ${_p} linkgrup
-➥ ${_p} pengumuman [text]
-➥ ${_p} hidetag [text]
+➥ ${_p} pengumuman [texto]
+➥ ${_p} hidetag [texto]
 ➥ ${_p} listonline
 ➥ ${_p} kick @Member
 ➥ ${_p} grouplist
 
 ═〘 EXPERIMENTAL 〙 ═
-➥ ${_p}jadibot [kode login jika ada / kosongin]
+➥ ${_p}jadibot [código de login se houver/vazio]
 ➥ ${_p}berhenti
 ➥ ${_p}getcode
 
 ═〘 PROPRIETÁRIO 〙 ═
-➥ ${_p}bcgc <teks>
-➥ ${_p}setmenu <teks>
-➥ ${_p}deletechat (chat grup)
+➥ ${_p}bcgc <texto>
+➥ ${_p}setmenu <texto>
+➥ ${_p}deletechat (chat do grupo)
 ➥ ${_p}deletechat group
-➥ ${_p}mutechat (chat grup)
+➥ ${_p}mutechat (chat do grupo)
 ➥ ${_p}mutechat group
 
-═〘 MEU CANAL〙 ═
-➥https://youtube.com/channel/UCalQOjX5BFqim6x8JyCMM-w
+═〘 MEU NUMERO〙 ═
+➥ wa.me//5581996207906
 ═〘 Info Bot 〙 ═
-➥ Name : ARR157 BOT
-➥ Coded using *Nano* on Android \\w Termux
+➥ nome : MILENA-BOT
+➥ Codificado usando * Nano * no Android \\ w Termux
 ➥ 
 
 Advanced:
   > return m
 
-═〘 BRUXINHO-MODS〙═
+═〘 MILENA-BOT 〙═
 `.trim()
     conn.reply(m.chat, {...preview, text}, m)
   }
